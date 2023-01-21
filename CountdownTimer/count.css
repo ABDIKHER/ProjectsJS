@@ -1,0 +1,48 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.section-center{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10vh;
+    padding: 10px 10%;
+}
+.gift-img img{
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.gift-img{
+    flex-basis: 35%;
+}
+.gift-info h3{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.gift-info h4{
+    margin-bottom: 20px;
+}
+.gift-info p{
+    margin-bottom: 20px;
+}
+.gift-info{
+    flex-basis: 55%;
+    border: 1px solid red;
+}
+.deadline{
+    display: flex;
+}
+.deadline-fomat{
+    padding: 10px 25px;
+    margin: 10px 20px;
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+
+}
+.deadline-fomat h4{
+    font-size: 30px;
+}

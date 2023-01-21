@@ -1,0 +1,160 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/*
+=============== 
+Grocery List
+===============
+*/
+.section-center {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+    transition: all .5s ease-in-out;
+    padding: 2rem;
+    margin: 5rem auto;
+    width: 80%;
+    border: 10px solid red;
+  }
+  .section-center:hover {
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+  }
+  .alert {
+    margin-bottom: 1rem;
+    height: 1.25rem;
+    display: grid;
+    align-items: center;
+    text-align: center;
+    font-size: 0.7rem;
+    border-radius: 0.25rem;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+  }
+  .alert-danger {
+    color: #721c24;
+    background: #f8d7da;
+  }
+  .alert-success {
+    color: #155724;
+    background: #d4edda;
+  }
+  .grocery-form h3 {
+    color: #222;
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+    text-align: center;
+  }
+  .form-control {
+    display: flex;
+    justify-content: center;
+  }
+  #grocery {
+    padding: 0.25rem;
+    padding-left: 1rem;
+    background: gray;
+    border-top-left-radius: 0.25rem;
+    border-bottom-left-radius: 0.25rem;
+    border-color: transparent;
+    font-size: 1rem;
+    flex: 1 0 auto;
+    color: #313a36;
+  }
+  #grocery::placeholder {
+    font-family:sans-serif;
+    color: #313a36;
+  }
+  .submit-btn {
+    background: #93b4a8;
+    border-color: transparent;
+    flex: 0 0 5rem;
+    display: grid;
+    align-items: center;
+    padding: 0.25rem;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    border-top-right-radius: 0.25rem;
+    border-bottom-right-radius: 0.25rem;
+    cursor: pointer;
+    content: var(--clr-primary-5);
+    transition: all .5s ease-in-out;
+    font-size: 0.85rem;
+  }
+  .submit-btn:hover {
+    background: dodgerblue;
+    color: #fff;
+  }
+  
+  .grocery-container {
+    margin-top: 2rem;
+    transition: all .5s ease-in-out;
+    visibility: hidden;
+  }
+  .show-container {
+    visibility: visible;
+  }
+  .grocery-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 0.5rem;
+    transition: all .5s ease-in-out;
+    padding: 0.25rem 1rem;
+    border-radius: 0.25rem;
+    text-transform: capitalize;
+  }
+  .grocery-item:hover {
+    color: rgba(128, 128, 128, 0.91);
+    background: rgba(173, 161, 161, 0.91);
+  }
+  .grocery-item:hover .title {
+    color: rgba(128, 128, 128, 0.91);
+  }
+  .title {
+    margin-bottom: 0;
+    color: var(--clr-grey-1);
+    letter-spacing: 2px;
+    transition:  all .5s ease-in-out;
+  }
+  .edit-btn,
+  .delete-btn {
+    background: transparent;
+    border-color: transparent;
+    cursor: pointer;
+    font-size: 0.7rem;
+    margin: 0 0.15rem;
+    transition: all .5s ease-in-out;
+  }
+  .edit-btn {
+    color: #098d5d;
+  }
+  .edit-btn:hover {
+    color: #5be0af;
+  }
+  .delete-btn {
+    color: #c04242;
+  }
+  .delete-btn:hover {
+    color:  #d73e6a;
+  }
+  .clear-btn {
+    text-transform: capitalize;
+    width: 10rem;
+    height: 1.5rem;
+    display: grid;
+    align-items: center;
+    background: transparent;
+    border-color: transparent;
+    color: #c04242;
+    margin: 0 auto;
+    font-size: 0.85rem;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition:all .3s ease-in-out;
+    margin-top: 1.25rem;
+  }
+  .clear-btn:hover {
+    color: #d81c1c;
+  }
+

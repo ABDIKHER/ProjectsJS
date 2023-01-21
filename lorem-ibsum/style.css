@@ -1,0 +1,52 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+.section-center {
+    width: 90vw;
+    margin: 0 auto;
+    max-width: 40rem;
+    margin-top: 5rem;
+    text-align: center;
+  }
+h3 {
+    text-transform: uppercase;
+    color: hsl(205, 86%, 17%);
+  }
+  .lorem-form {
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  label {
+    font-size: 1.25rem;
+    color: hsl(205, 86%, 17%);
+  }
+  input {
+    padding: 0.25rem 0.5rem;
+  
+    width: 4rem;
+    border-radius: 0.5rem;
+    border: none;
+    margin: 0 0.5rem;
+    font-size: 1.25rem;
+  }
+  button {
+    background: hsl(205, 100%, 96%);
+  }
+  .result {
+    margin-bottom: 2rem;
+  }
+  @media screen and (min-width: 992px) {
+    .section-center {
+      width: 95vw;
+    }
+  }
